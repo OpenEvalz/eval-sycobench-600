@@ -1,0 +1,44 @@
+{
+  "openevalz_version": 1,
+  "eval": {
+    "id": "sycobench-600",
+    "slug": "sycobench-600",
+    "title": "SycoBench-600: Measuring Sycophancy and Correction Selectivity in LLM Assistants",
+    "group": "",
+    "tags": [
+      "sycophancy",
+      "correction-selectivity",
+      "llm-evaluation",
+      "ai-safety"
+    ],
+    "source": "register"
+  },
+  "upstream": {
+    "repo": "https://github.com/UKGovernmentBEIS/inspect_evals",
+    "path": "register/sycobench-600",
+    "inspect_ai": "0.3.260",
+    "eval_version": "",
+    "dependency": ""
+  },
+  "execution": {
+    "class": "plain",
+    "cost_class": "low",
+    "sandbox": null,
+    "requires_internet": false,
+    "fast": false,
+    "supports_k8s": false,
+    "environment": ""
+  },
+  "tasks": [
+    {
+      "name": "sycobench_600",
+      "samples": 0
+    }
+  ],
+  "total_samples": 0,
+  "external_assets": [],
+  "scaffolds": [
+    "baseline"
+  ],
+  "generated": "2026-08-25"
+}
